@@ -1,8 +1,9 @@
 import streamlit as st
 import numpy as np
-import pandas as pd                        
-from scipy.optimize import minimize
+import pandas as pd     
 import numpy_financial as npf
+from scipy.optimize import minimize
+
 import warnings
 warnings.filterwarnings("ignore") 
 
