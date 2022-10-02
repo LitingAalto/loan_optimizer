@@ -1,14 +1,9 @@
 import streamlit as st
 import numpy as np
-import datetime
 import pandas as pd                        
-import plotly.express as px
-import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 import numpy_financial as npf
 import warnings
-import time
-import math
 warnings.filterwarnings("ignore") 
 
 st.set_page_config(layout="wide")
